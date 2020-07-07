@@ -79,7 +79,7 @@ wget -O https://raw.githubusercontent.com/theonejpas/geneadm/master/Install/tran
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "\033[1;35m ° VERIFICADO\033[0m"
 
-echo -e "\033[1;36m wget https://raw.githubusercontent.com/theonejpas/geneadm/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
+echo -e "\033[1;36mwget https://raw.githubusercontent.com/theonejpas/geneadm/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;33m ° Perfecto, Utilice el comando \033[1;31mautoonline\033[0m"
