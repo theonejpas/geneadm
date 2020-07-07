@@ -30,7 +30,7 @@ cyanClaro="\033[1;36m"
 branco="\033[1;37m"
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
-echo -e "\033[1;31m ° INSTALADOR ADM-SCRIPTS KEY-ADM-MANAGER ®\033[0m"
+echo -e "\033[1;31m ° INSTALADOR ADM-SCRIPTS KEY-ADM-MANAGER BY JUAN®\033[0m"
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 sleep 5
 
@@ -54,8 +54,8 @@ echo -e "\033[1;32m ° INSTALANDO RECURSOS DE SYSTEMA...\033[0m"
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;32m Aguarde...\033[1;32m"
 
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/adm-server.tgz > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/bin.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/theonejpas/geneadm/master/adm-server.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/theonejpas/geneadm/master/bin.tgz > /dev/null 2>&1
 tar xvfz /root/adm-server.tgz > /dev/null 2>&1
 tar xvfz /root/bin.tgz > /dev/null 2>&1
 rm -rf /root/adm-server.tgz > /dev/null 2>&1
@@ -75,11 +75,11 @@ echo -e "\033[1;34m Aguarde...\033[1;32m"
 
 locale-gen en_US.UTF-8 > /dev/null 2>&1
 update-locale LANG=en_US.UTF-8 > /dev/null 2>&1
-wget -O trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/Install/trans -o /dev/null 2>&1
+wget -O https://raw.githubusercontent.com/theonejpas/geneadm/master/Install/trans -o /dev/null 2>&1
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "\033[1;35m ° VERIFICADO\033[0m"
 
-echo -e "\033[1;36mwget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
+echo -e "\033[1;36m wget https://raw.githubusercontent.com/theonejpas/geneadm/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;33m ° Perfecto, Utilice el comando \033[1;31mautoonline\033[0m"
